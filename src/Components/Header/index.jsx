@@ -1,9 +1,9 @@
 import logo from './logobocaweb.png';
 
-export const Header=({})=> {
+export const Header=()=> {
     return  (
         <div id='header'>
-            <img src={logo}/>
+            <img src={logo} alt="logo"/>
             <h1>Boca Web</h1>
             
         </div>
